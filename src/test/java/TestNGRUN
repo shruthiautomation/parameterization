@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="para">
+  
+  <parameter name = "url" value="https://opensource-demo.orangehrmlive.com"/>
+  <parameter name="username" value ="Admin"/>
+  <parameter name="password" value="admin123"/>
+  
+    <classes>
+      <class name="com.qa.crm.testcases.paremetr"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
